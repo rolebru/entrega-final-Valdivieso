@@ -1,0 +1,15 @@
+.navbar{
+    height: 120px;
+    background-color: yellowgreen;
+}
+
+.img-navbar{
+    height: 100px;
+}
+
+.nav-link{
+    color: antiquewhite !important;
+}
+span{
+    color: black;
+}
