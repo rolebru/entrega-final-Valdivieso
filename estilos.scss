@@ -1,148 +1,135 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar {
+$color1:rgb(172, 168, 138);
+
+.navbar{
     height: 120px;
     width: 100%;
-    background-color: rgb(172, 168, 138);
+    background-color: $color1;
     position: sticky;
     top: 0;
 }
 
-.img-navbar {
+
+.img-navbar{
     height: 100px;
 }
+.navbar-collapse{
+    background-color:  $color1;
+} 
 
-.navbar-collapse {
-    background-color: rgb(172, 168, 138);
-}
-
-.nav-link {
+.nav-link{
     color: antiquewhite !important;
 }
-
-.nav-item {
+.nav-item{
     transition: all 0.5s ease;
 }
-
-.nav-item:hover {
+.nav-item:hover{
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
 }
 
-span {
+span{
     color: black;
 }
-
-.jumbotron {
+.jumbotron{
     background-image: url(img/tennis-5782695_1280.jpg);
     background-position: center;
     background-size: cover;
     height: 450px;
 }
-
 /* .carousel-inner{
     height: 450px;
 } */
-.titulo {
-    text-align: right;
-}
 
-h1 {
-    text-shadow: 0 0 5px white, 0 0 5px white;
+.titulo{
+    text-align:right;
 }
-
-.titulo p {
-    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
+h1{
+    text-shadow:0 0 5px white,0 0 5px white;
 }
-
-h2 {
-    background-color: rgb(172, 168, 138);
+.titulo p{
+    text-shadow:0 0 5px white,0 0 5px white,0 0 5px white;
+}
+h2{
+    background-color:$color1 ;
     color: antiquewhite;
     text-align: center;
     padding: 10px;
     margin-bottom: 0;
 }
-
-h4 {
-    background-color: rgb(172, 168, 138);
+h4{
+    background-color:rgb(172, 168, 138) ;
     color: antiquewhite;
     text-align: center;
     padding: 10px;
     margin-bottom: 0;
     border: 5px solid black;
 }
-
-.nleft {
+.nleft{
     background-image: url(img/clin\ voea\ 1.jpg);
     height: 300px;
     background-position: center;
     background-size: cover;
 }
-
-.nright {
+.nright{
     background-color: antiquewhite;
 }
-
-.nright1 {
+.nright1{
     background-image: url(img/AMIG.jpg);
     height: 300px;
     background-position: center;
     background-size: cover;
 }
-
-.nleft1 {
+.nleft1{
     background-color: antiquewhite;
 }
-
-.article {
+.article{
     border: 2px solid black;
     background-color: antiquewhite;
 }
-
-article {
+article{
     text-align: center;
 }
-
-article i {
+article i{
     color: black;
     font-size: 35px;
 }
 
-footer {
-    background-color: black;
+footer{
+    background-color:black;
     color: antiquewhite;
     font-size: 20px;
     text-align: center;
     padding: 20px;
 }
-
-footer i {
+footer i{
     font-size: 35px;
     padding: 15px;
 }
 
-/* @media only screen and (max-width:410px) {
+ /* @media only screen and (max-width:410px) {
     .navbar-brand {
-
+        
     }
 }   */
-.contact {
+
+.contact{
     height: 100vh;
     width: 100%;
     border-radius: 5px;
     background-image: url(img/tennis-5782695_1280.jpg);
     background-size: cover;
     display: flex;
-    justify-content: right;
+    justify-content:right;
     align-content: center;
     align-items: center;
 }
-
-form textarea {
+form textarea{
     width: 100%;
     font-size: 25px;
     background-color: transparent;
@@ -150,24 +137,23 @@ form textarea {
     border-bottom: 5px solid black;
 }
 
-form #enviar {
-    background-color: rgb(172, 168, 138);
+form #enviar{
+    background-color:rgb(172, 168, 138) ;
     border: 4px solid black;
     border-radius: 5px;
     padding: 10px;
 }
-
-.contacto {
+.contacto{
     font-size: 25px;
 }
 
-form {
-    width: 100%;
+form{
+    width: 100%; ;
     height: 100vh;
     padding: 50px;
 }
 
-form input {
+form input{
     width: 100%;
     font-size: 25px;
     background-color: transparent;
@@ -175,30 +161,30 @@ form input {
     border-bottom: 5px solid black;
 }
 
-form input::placeholder {
-    color: rgba(0, 0, 0, 0.5);
+form input::placeholder{
+    color: rgba(0, 0, 0, 0.5) ;
 }
 
-form textarea::placeholder {
-    color: rgba(0, 0, 0, 0.5);
+form textarea::placeholder{
+    color: rgba(0, 0, 0, 0.5) ;
 }
-
-.container-r {
+.container-r{
     height: 600px;
     width: 100%;
     border: 5px solid rgb(8, 0, 0);
     display: grid;
-    background-color: rgb(203, 227, 21);
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    background-color:rgb(203, 227, 21);
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr  ;
     /* grid-column-gap: ; */
-    grid-template-areas: "img1 img2 img3""img1 img2 img4 ";
+    grid-template-areas: "img1 img2 img3"
+                        "img1 img2 img4 ";
     grid-gap: 15px;
-    padding: 15px;
+    padding: 15px; 
     box-sizing: border-box;
 }
 
-.item {
+.item{
     background-color: rgb(192, 192, 42);
     border: 5px solid black;
     background-size: cover;
@@ -207,32 +193,28 @@ form textarea::placeholder {
     filter: grayscale(100%);
     transition: all 0.7s;
 }
-
-.item:hover {
+.item:hover{
     filter: grayscale(0%);
     transform: scale(1.08);
 }
 
-.item1 {
+.item1{
     background-image: url(img/eventos4.jpg);
     grid-area: img1;
 }
-
-.item2 {
+.item2{
     background-image: url(img/eventos.jpg);
     grid-area: img2;
 }
-
-.item3 {
+.item3{
     background-image: url(img/eventos1.jpg);
     grid-area: img3;
+    
 }
-
-.item4 {
+.item4{
     background-image: url(img/eventos2.jpg);
     grid-area: img4;
 }
-
 /* .item5{
     background-image: url(img/eventoflayer.jpg);
     grid-area: img5;
@@ -249,8 +231,10 @@ form textarea::placeholder {
     background-image: url(img/sport-873361_1280.jpg);
     grid-area: img8;
 } */
+
 /* Profesionales */
-.nleft2 {
+
+.nleft2{
     background-image: url(img/hanfmann.jpg);
     height: 400px;
     background-position: center;
@@ -258,12 +242,11 @@ form textarea::placeholder {
     border: 5px solid black;
     border-radius: 10px;
 }
-
-.nright2 {
+.nright2{
     background-color: antiquewhite;
 }
 
-.nleft3 {
+.nleft3{
     background-image: url(img/Lautaro\ falabella.jpg);
     height: 400px;
     background-position: center;
@@ -272,7 +255,7 @@ form textarea::placeholder {
     border-radius: 10px;
 }
 
-.nleft4 {
+.nleft4{
     background-image: url(img/nicolas_bruna.jpg);
     height: 400px;
     background-position: top;
@@ -282,6 +265,7 @@ form textarea::placeholder {
 }
 
 /* Nosotros */
+
 /* .tenis{
     background-image: url(img/tennis-5782695_1280.jpg);
     height: 800px;
@@ -289,25 +273,23 @@ form textarea::placeholder {
     background-size: cover;
     display: flex;
     justify-content: center;
-
+    
 } */
 /* .nosotros{
     height: 600px;
     background-color: aliceblue;
 } */
-.call {
+.call{
     width: 80%;
     background-color: rgba(0, 0, 0, 0.7);
     color: aliceblue;
     padding: 20px;
     border: 5px solid orange;
 }
-
-.call h3 {
+.call h3{
     color: orange;
 }
-
-.call a {
+.call a{
     background-color: orange;
     color: aliceblue;
     text-decoration: none;
@@ -315,16 +297,14 @@ form textarea::placeholder {
     text-shadow: 0 0 10px black;
 }
 
-.nos {
+.nos{
     height: 100vh;
     width: 100%;
     border-radius: 5px;
     background-image: url(img/tennis-5782695_1280.jpg);
     background-size: cover;
     display: flex;
-    justify-content: right;
+    justify-content:right;
     align-content: center;
     align-items: center;
 }
-
-/*# sourceMappingURL=estilos.css.map */
