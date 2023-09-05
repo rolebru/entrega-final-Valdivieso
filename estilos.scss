@@ -308,3 +308,17 @@ form textarea::placeholder{
     align-content: center;
     align-items: center;
 }
+
+// $animal: caballo;
+
+// p {
+//     @if $animal == gato {
+//         color: red;
+//         background-color: aqua;
+//         border: 2px solid black;
+//     }
+
+//     @else if $animal == caballo {
+//         color: yellow;
+//     }
+// }
