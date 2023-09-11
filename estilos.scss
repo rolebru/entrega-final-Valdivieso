@@ -72,6 +72,16 @@ h4{
     margin-bottom: 0;
     border: 5px solid $color3;
 }
+
+.fotos{
+    background-color:$color1 ;
+    color:$color2;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+    border: 5px solid $color3;
+}
+
 .nleft{
     background-image: url(img/clin\ voea\ 1.jpg);
     height: 300px;
@@ -338,3 +348,39 @@ p {
 
 
 }
+
+// condicionales
+
+.cont1 {
+    height: 400px;
+    width: 700px;
+}
+
+$img1: amigos;
+$img2: torneo;
+$img3: evento;
+
+$foto: $img1;
+
+.cont1 {
+    @if $foto == $img1 {
+        color: $color1;
+        background-image: url(img/eventos1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-color: $color3;
+    }
+
+    @else if $foto == $img2 {
+        background-image: url(img/eventos.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    @else if $foto == $img3 {
+        background-image: url(img/female-2025511_1280.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
+

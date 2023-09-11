@@ -76,6 +76,15 @@ h4 {
   border: 5px solid black;
 }
 
+.fotos {
+  background-color: rgb(172, 168, 138);
+  color: antiquewhite;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+  border: 5px solid black;
+}
+
 .nleft {
   background-image: url(img/clin\ voea\ 1.jpg);
   height: 300px;
@@ -335,6 +344,19 @@ p {
   color: black;
   background-color: transparent;
   border: 3px black;
+}
+
+.cont1 {
+  height: 400px;
+  width: 700px;
+}
+
+.cont1 {
+  color: rgb(172, 168, 138);
+  background-image: url(img/eventos1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: black;
 }
 
 /*# sourceMappingURL=estilos.css.map */
