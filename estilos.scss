@@ -109,6 +109,11 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+.redes{
+    color: $color2;
+}
+
 footer i{
     font-size: 35px;
     padding: 15px;
@@ -311,16 +316,25 @@ form textarea::placeholder{
     align-items: center;
 }
 
-// $animal: caballo;
+$animal: china;
 
-// p {
-//     @if $animal == gato {
-//         color: red;
-//         background-color: aqua;
-//         border: 2px solid $color3;
-//     }
+p {
+    @if $animal == tobi {
+        color: red;
+        background-color: aqua;
+        border: 2px solid $color3;
+    }
 
-//     @else if $animal == caballo {
-//         color: yellow;
-//     }
-// }
+    @else if $animal == india {
+        color: yellow;
+        background-color: $color3;
+    }
+
+    @else if $animal == china {
+        color: $color3;
+        background-color: transparent;
+        border: 3px  $color3;
+    }
+
+
+}
