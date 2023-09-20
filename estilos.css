@@ -210,7 +210,15 @@ form input {
   border-bottom: 5px solid black;
 }
 
+form input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 form input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+form textarea::-moz-placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -379,6 +387,4 @@ p {
   background-position: center;
   background-size: cover;
   background-color: black;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
